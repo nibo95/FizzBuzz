@@ -19,8 +19,8 @@ public class Game
 	}
 	public static void main(String[] args) 
 	{
-		Game first = new Game();
-//		first.fizzBuzz(enter length of game here);
+		Game newGame = new Game();
+		newGame.fizzBuzz(0); //Enter length of game here
 	}
 
 }
